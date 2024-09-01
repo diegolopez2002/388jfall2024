@@ -19,8 +19,6 @@ Navigate to the root of a directory you will use for this class. You should use 
 for all projects in this course; you don't need more than one.
 To create and activate one, enter the following commands in your terminal:
 
-> Tip: You can clone the whole repo (`388jpublic`) and use that as your root directory for this class. Then, you can just run `git pull` to get new projects.
-
 For Mac/Linux:
 ```bash
 $ python3 -m venv venv        # creates environment
