@@ -6,6 +6,7 @@
 # Project links
  - [Project 1](https://classroom.github.com/a/7cRG4A__) ([README](fall2024/projects/project01.md))
  - [Project 2](https://classroom.github.com/a/veP06_ln) ([README](fall2024/projects/project02.md)) 
+       - Test
  - [Project 3 (TBA)]() 
  - [Project 4 (TBA)]() 
  - [Project 5 (TBA)]() 
