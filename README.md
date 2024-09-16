@@ -8,5 +8,6 @@
  - [Project 2](https://classroom.github.com/a/NnOOCojE) ([README](fall2024/projects/project02.md))
    - [In Class Example Week2](fall2024/inclass/week2)
  - [Project 3 (TBA)]() 
+   - [In Class Example Week3](fall2024/inclass/week3)
  - [Project 4 (TBA)]() 
  - [Project 5 (TBA)]() 
