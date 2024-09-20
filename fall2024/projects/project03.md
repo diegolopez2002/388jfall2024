@@ -36,17 +36,17 @@ The setup involves getting an API key and installing the necessary packages.
 
 ### Setup (OMDb):
 1. Navigate to The Open Movie Database website -- http://www.omdbapi.com/
-   ![alt text](images/omdb_home.png "The OMDb homepage")
+   ![alt text](/fall2024/images/omdb_home.png "The OMDb homepage")
 2. Request an API key and navigate to the email you used to sign up with OMDb, and
    verify your API key.
-   ![alt text](images/request_key.png "Request an API Key")
+   ![alt text](/fall2024/images/request_key.png "Request an API Key")
 3. Using the API key you received in your email, fill in the `OMDB_API_KEY` variable at the top `app.py`.
 
 ## Project
 
 This is the `p3/` directory structure
 
-![directory structure](images/dir_structure.png)
+![directory structure](/fall2024/images/dir_structure.png)
 
 **Only modify:** `app.py` and `forms.py`. 
 
