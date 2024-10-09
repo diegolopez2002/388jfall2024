@@ -7,13 +7,13 @@ from wtforms.validators import InputRequired, Length, ValidationError
 from flask_wtf import FlaskForm
 from bson.objectid import ObjectId
 
-uri = ""
+uri = "mongodb+srv://chuck2:388j@cluster0.v574gns.mongodb.net/test?retryWrites=true&w=majority&appName=Cluster0"
 # Create a new client and connect to the server
 client = MongoClient(uri, server_api=ServerApi('1'))
 # Send a ping to confirm a successful connection
 try:
     app = Flask(__name__)
-    app.config["MONGO_URI"] = ""
+    app.config["MONGO_URI"] = "mongodb+srv://chuck2:388j@cluster0.v574gns.mongodb.net/test?retryWrites=true&w=majority&appName=Cluster0"
     mongo = PyMongo(app)
     client.admin.command('ping')
     new_post = {

@@ -10,5 +10,7 @@
  - [Project 3](https://classroom.github.com/a/md8gqLqV) ([README](fall2024/projects/project03.md)) 
    - [In Class Example Week3](fall2024/inclass/week3)
    - [In Class Mongo Setup Week4](fall2024/inclass/week4)
- - [Project 4 (TBA)]() 
+ - [Project 4]()([README](fall2024/projects/project04.md)) 
+   - [In Class Example Week5](fall2024/inclass/week5)
+   - [In Class Mongo Setup Week6](fall2024/inclass/week6)
  - [Project 5 (TBA)]() 
