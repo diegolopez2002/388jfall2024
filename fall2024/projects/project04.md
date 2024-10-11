@@ -230,7 +230,6 @@ is used by `Flask-Login` in order to retrieve the current user object.
    - `imdb_id`: required with length 9
    - `movie_title`: required with minimum length 1 and maximum length 100
 
-## Testing
 
 ### Functionality
 
@@ -241,14 +240,6 @@ will use the `run.py` file.
 We've listed all the requirements above, in high detail. Make sure you fill
 out all of those requirements, and that you display errors relevant to each
 page properly, and that the `current_user` object is used where needed.
-
-### Factory tests
-
-Make sure you've covered every test case as detailed above. When
-you're in the `p4/` directory, run `python -m pytest`.
-
-This will say "4 failed, 9 passed, 5 skipped" when you start your project.
-By the end, it should be "30 passed".
 
 
 ## Submissions
