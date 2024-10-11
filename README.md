@@ -14,3 +14,4 @@
    - [In Class Example Week5](fall2024/inclass/week5)
    - [In Class Example Week6](fall2024/inclass/week6)
  - [Project 5 (TBA)]() 
+   - [In Class Example Week7](fall2024/inclass/week7)
