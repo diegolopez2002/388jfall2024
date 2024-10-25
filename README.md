@@ -5,7 +5,13 @@
 
 # Project links
  - [Project 1](https://classroom.github.com/a/7cRG4A__) ([README](fall2024/projects/project01.md))
- - [Project 2 (TBA)]() ([README](fall2024/projects/project02.md)) 
- - [Project 3 (TBA)]() 
- - [Project 4 (TBA)]() 
- - [Project 5 (TBA)]() 
+ - [Project 2](https://classroom.github.com/a/NnOOCojE) ([README](fall2024/projects/project02.md))
+   - [In Class Example Week2](fall2024/inclass/week2)
+ - [Project 3](https://classroom.github.com/a/md8gqLqV) ([README](fall2024/projects/project03.md)) 
+   - [In Class Example Week3](fall2024/inclass/week3)
+   - [In Class Mongo Setup Week4](fall2024/inclass/week4)
+ - [Project 4](https://classroom.github.com/a/EYY81MGu) ([README](fall2024/projects/project04.md)) 
+   - [In Class Example Week5](fall2024/inclass/week5)
+   - [In Class Example Week6](fall2024/inclass/week6)
+ - [Project 5](https://classroom.github.com/a/VYRPjVNU) ([README](fall2024/projects/project05.md))
+   - [In Class Example Week7](fall2024/inclass/week7)

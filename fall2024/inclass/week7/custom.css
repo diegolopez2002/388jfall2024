@@ -1,0 +1,62 @@
+html {
+  /* sets colors scheme for default elements to support both dark and light mode, depending on system settings */
+  color-scheme: light dark;
+  font-family: sans-serif;
+}
+
+body {
+  padding: 2rem;
+  /* margin: auto centers it in the viewport */
+  margin: auto;
+  /* overflow: hidden; */ /* would prevent us from scrolling the page */
+}
+
+/* just so we can focus on the header contents from base.html which are styled below for this example */
+header {
+  min-height: 100vh;
+}
+
+/* basics */
+#title {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: sans-serif;
+
+  background: #77f; /* we can use hex, rgb, rgba, hsl, hsla to specify colors (or default color names) */
+
+  max-width: 10ch; /* we have %, vw, vh, ch, rem, em, px */
+  /* rem - based on root font size (usually 16px) */
+  /* em - based on element font size, for example here, 1em would be = 3rem (or 48px) */
+  /* px - rendered inconsistently with different device pixel densities, depending on the browser */
+  padding: 1rem 2rem; /* 1rem y, 2rem x */ /* space on the inside */
+  margin: 1rem; /* space on the outside */
+  border: 0.25rem dotted #f88; /* border width (between padding and margin), style, color */
+  border-radius: 10rem; /* pill-shaped (using % would result in oval shaped corners, TRY IT!) */
+
+  position: fixed; /* fixed to the viewport, absolute to nearest position: relative parent container */
+  /* inset: 0; */ /* top, left, bottom, right all together; might annoyingly stretch the element if width and hight are not explicitly set */
+  left: 0; /* outside of margin */
+  top: 0;
+}
+
+.cat-bg {
+  padding: 2rem;
+  margin-top: 6.9rem; /* nice */
+  padding-left: 10rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('/static/cat.png');
+}
+
+@media (min-width: 768px) {
+  body {
+    /* This limits content width on wider screens, which looks nice together with centering it by margin:auto from above */
+    max-width: fit-content;
+    min-width: 369px;
+  }
+}
+
+ol {
+  padding-left: 1rem;
+}
+
