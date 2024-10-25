@@ -13,4 +13,5 @@
  - [Project 4](https://classroom.github.com/a/EYY81MGu) ([README](fall2024/projects/project04.md)) 
    - [In Class Example Week5](fall2024/inclass/week5)
    - [In Class Example Week6](fall2024/inclass/week6)
- - [Project 5 (TBA)]() 
+ - [Project 5](https://classroom.github.com/a/VYRPjVNU) ([README](fall2024/projects/project05.md))
+   - [In Class Example Week7](fall2024/inclass/week7)
