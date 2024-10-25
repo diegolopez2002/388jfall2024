@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block searchbar %}
+    {% from 'macros/search.html' import searchbar %}
+    {{ searchbar() }}
+{% endblock %}
+
+{% block title %}
+    <h1>Poke-Info website!</h1>
+{% endblock %}
+
+{% block content %}
+<div id="poke_grid" class="TODO:">
+    {% for pokemon, pokemonid in pokemon_list|zip(poke_ids) %}
+    <a id="poke_link" class="TODO:" href="{{url_for('pokemon_info', pokemon_name=pokemon)}}">
+        {{ pokemon }}
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{{pokemonid}}.png" />
+    </a>
+    {% endfor %}
+</div>
+{% endblock %}

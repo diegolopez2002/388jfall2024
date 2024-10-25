@@ -1,0 +1,36 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- keep these -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='output.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='search.css') }}" />
+    <!-- TODO: comment these out -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='base.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='poke_grid.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='poke_info.css') }}" />
+
+    <!-- Uncomment this line to use the CDN Version of Tailwind -->
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <title>Poke-Info</title>
+  </head>
+  <body class="TODO:">
+    <header class="TODO:">
+      <nav class="TODO:">
+        {% block back %}{% endblock %}
+        {% block title %}{% endblock %}
+      </nav>
+      {% block searchbar %}{% endblock %}
+    </header>
+    <main>{% block content %}{% endblock %}</main>
+    <footer class="TODO:">
+      © CMSC388j Poke-Info website
+    </footer>
+
+    <!-- NOTE: the searchbar script needs to be below all the anchor tags in order for it to work, this is why we don't place it inside the searchbar macro, since the searchbar block is rendered above the content block in our base.html -->
+    <script>
+      // TODO: Implement the search functionality for pokemon names
+    </script>
+  </body>
+</html>

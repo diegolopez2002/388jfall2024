@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block searchbar %}
+    {% from 'macros/search.html' import searchbar %}
+    {{ searchbar() }}
+{% endblock %}
+
+{% block title %}
+    <h1>Poke-Info website!</h1>
+{% endblock %}
+
+{% block content %}
+<div id="poke_grid" class="TODO:">
+    <!-- Filled with JS Code -->
+</div>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        fetch('http://127.0.0.1:5000/get_pokemon_list')
+            .then(response => response.json())
+            .then(data => {
+                console.log(data);
+                const pokeGrid = document.getElementById('poke_grid');
+                const pokemonList = data.pokemon_list;
+                const pokeIds = data.pokemon_ids; // Assuming IDs are sequential
+
+                console.log(pokemonList);
+    
+                pokemonList.forEach((pokemon, index) => {
+                    const pokemonId = pokeIds[index];
+                    const pokeLink = document.createElement('a');
+                    pokeLink.id = 'poke_link';
+                    pokeLink.className = 'TODO:';
+                    pokeLink.href = `/pokemon/${pokemon}`;
+                    pokeLink.innerHTML = `
+                        ${pokemon}
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemonId}.png" />
+                    `;
+                    pokeGrid.appendChild(pokeLink);
+                });
+            })
+            .catch(error => console.error('Error fetching Pokémon list:', error));
+    });
+</script>
+{% endblock %}
+
+
